@@ -1,0 +1,582 @@
+[
+    {
+        "nome_cliente": "Carvalho",
+        "tpv_meta": 250056.18,
+        "margem_percentual": 1.12,
+        "margem_valor": 2800.63,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 149569.81,
+                "qtd_transacoes_diarias": 7741
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 312292.13,
+                "qtd_transacoes_diarias": 9858
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 563725.54,
+                "qtd_transacoes_diarias": 6222
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 772425.05,
+                "qtd_transacoes_diarias": 5786
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 869764.18,
+                "qtd_transacoes_diarias": 7442
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 378045.14,
+                "qtd_transacoes_diarias": 9009
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 99808.92,
+                "qtd_transacoes_diarias": 8710
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 644940.61,
+                "qtd_transacoes_diarias": 5868
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 758373.45,
+                "qtd_transacoes_diarias": 8910
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 450114.64,
+                "qtd_transacoes_diarias": 7845
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Cassiano S.A.",
+        "tpv_meta": 621156.59,
+        "margem_percentual": 0.79,
+        "margem_valor": 4907.14,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 756513.15,
+                "qtd_transacoes_diarias": 5112
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 684141.93,
+                "qtd_transacoes_diarias": 9880
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 145324.11,
+                "qtd_transacoes_diarias": 8059
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 335282.63,
+                "qtd_transacoes_diarias": 8196
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 635397.1,
+                "qtd_transacoes_diarias": 9286
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 53537.64,
+                "qtd_transacoes_diarias": 5867
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 190206.43,
+                "qtd_transacoes_diarias": 8010
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 611421.06,
+                "qtd_transacoes_diarias": 9311
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 328054.71,
+                "qtd_transacoes_diarias": 6076
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 285278.59,
+                "qtd_transacoes_diarias": 5647
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Pimenta",
+        "tpv_meta": 259285.84,
+        "margem_percentual": 4.26,
+        "margem_valor": 11045.58,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 470028.04,
+                "qtd_transacoes_diarias": 9037
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 563491.1,
+                "qtd_transacoes_diarias": 5708
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 835378.64,
+                "qtd_transacoes_diarias": 8134
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 435027.52,
+                "qtd_transacoes_diarias": 6555
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 897177.04,
+                "qtd_transacoes_diarias": 5093
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 135355.69,
+                "qtd_transacoes_diarias": 9968
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 317735.84,
+                "qtd_transacoes_diarias": 7272
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 491797.98,
+                "qtd_transacoes_diarias": 5413
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 563228.23,
+                "qtd_transacoes_diarias": 7654
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 129115.93,
+                "qtd_transacoes_diarias": 6854
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Vasconcelos Ramos Ltda.",
+        "tpv_meta": 664061.86,
+        "margem_percentual": 2.27,
+        "margem_valor": 15074.2,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 202664.58,
+                "qtd_transacoes_diarias": 5820
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 605482.34,
+                "qtd_transacoes_diarias": 7705
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 642272.67,
+                "qtd_transacoes_diarias": 7479
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 643388.22,
+                "qtd_transacoes_diarias": 6220
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 871317.43,
+                "qtd_transacoes_diarias": 6037
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 56641.17,
+                "qtd_transacoes_diarias": 8052
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 455384.07,
+                "qtd_transacoes_diarias": 8608
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 519203.76,
+                "qtd_transacoes_diarias": 7341
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 424477.93,
+                "qtd_transacoes_diarias": 8789
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 135319.13,
+                "qtd_transacoes_diarias": 7748
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Vasconcelos",
+        "tpv_meta": 480285.76,
+        "margem_percentual": 0.64,
+        "margem_valor": 3073.83,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 785207.09,
+                "qtd_transacoes_diarias": 8088
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 516294.03,
+                "qtd_transacoes_diarias": 6248
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 454542.72,
+                "qtd_transacoes_diarias": 9880
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 309750.21,
+                "qtd_transacoes_diarias": 7366
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 338108.94,
+                "qtd_transacoes_diarias": 8960
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 493711.44,
+                "qtd_transacoes_diarias": 7173
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 771752.52,
+                "qtd_transacoes_diarias": 7105
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 686240.86,
+                "qtd_transacoes_diarias": 7615
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 646808.19,
+                "qtd_transacoes_diarias": 8560
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 373835.43,
+                "qtd_transacoes_diarias": 8214
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Pires - ME",
+        "tpv_meta": 748163.32,
+        "margem_percentual": 2.87,
+        "margem_valor": 21472.29,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 290629.69,
+                "qtd_transacoes_diarias": 7716
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 627373.12,
+                "qtd_transacoes_diarias": 5353
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 633022.86,
+                "qtd_transacoes_diarias": 8628
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 139851.6,
+                "qtd_transacoes_diarias": 6398
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 366088.06,
+                "qtd_transacoes_diarias": 7665
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 626276.84,
+                "qtd_transacoes_diarias": 8319
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 663385.65,
+                "qtd_transacoes_diarias": 6727
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 401516.45,
+                "qtd_transacoes_diarias": 9753
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 125117.55,
+                "qtd_transacoes_diarias": 7498
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 243311.96,
+                "qtd_transacoes_diarias": 6108
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Alves",
+        "tpv_meta": 348708.28,
+        "margem_percentual": 3.33,
+        "margem_valor": 11611.99,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 526899.33,
+                "qtd_transacoes_diarias": 9755
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 150842.67,
+                "qtd_transacoes_diarias": 8459
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 753366.96,
+                "qtd_transacoes_diarias": 9523
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 868920.85,
+                "qtd_transacoes_diarias": 8600
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 783008.3,
+                "qtd_transacoes_diarias": 9606
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 62073.47,
+                "qtd_transacoes_diarias": 9400
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 59124.6,
+                "qtd_transacoes_diarias": 5326
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 348161.75,
+                "qtd_transacoes_diarias": 6923
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 814989.57,
+                "qtd_transacoes_diarias": 5131
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 130761.07,
+                "qtd_transacoes_diarias": 7713
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Lopes",
+        "tpv_meta": 569564.75,
+        "margem_percentual": 4.64,
+        "margem_valor": 26427.8,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 143659.49,
+                "qtd_transacoes_diarias": 8936
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 423508.46,
+                "qtd_transacoes_diarias": 7354
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 52919.05,
+                "qtd_transacoes_diarias": 8448
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 367229.99,
+                "qtd_transacoes_diarias": 8998
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 638863.34,
+                "qtd_transacoes_diarias": 5962
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 693504.7,
+                "qtd_transacoes_diarias": 8427
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 863437.25,
+                "qtd_transacoes_diarias": 6119
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 126346.82,
+                "qtd_transacoes_diarias": 9283
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 260874.96,
+                "qtd_transacoes_diarias": 6325
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 268624.68,
+                "qtd_transacoes_diarias": 5226
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Freitas da Rosa S/A",
+        "tpv_meta": 300753.56,
+        "margem_percentual": 4.01,
+        "margem_valor": 12060.22,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 463132.41,
+                "qtd_transacoes_diarias": 8689
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 531948.49,
+                "qtd_transacoes_diarias": 7108
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 673322.26,
+                "qtd_transacoes_diarias": 6574
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 622254.68,
+                "qtd_transacoes_diarias": 5671
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 781402.74,
+                "qtd_transacoes_diarias": 8301
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 870559.3,
+                "qtd_transacoes_diarias": 9772
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 620864.2,
+                "qtd_transacoes_diarias": 5939
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 502208.79,
+                "qtd_transacoes_diarias": 5443
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 232219.57,
+                "qtd_transacoes_diarias": 5344
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 148633.88,
+                "qtd_transacoes_diarias": 9665
+            }
+        ]
+    },
+    {
+        "nome_cliente": "Castro",
+        "tpv_meta": 823951.56,
+        "margem_percentual": 3.24,
+        "margem_valor": 26696.03,
+        "historico": [
+            {
+                "data": "07/11/2025",
+                "valor_transacao_dia": 169386.03,
+                "qtd_transacoes_diarias": 8754
+            },
+            {
+                "data": "06/11/2025",
+                "valor_transacao_dia": 291279.73,
+                "qtd_transacoes_diarias": 7942
+            },
+            {
+                "data": "05/11/2025",
+                "valor_transacao_dia": 490229.33,
+                "qtd_transacoes_diarias": 7165
+            },
+            {
+                "data": "04/11/2025",
+                "valor_transacao_dia": 119050.37,
+                "qtd_transacoes_diarias": 7802
+            },
+            {
+                "data": "03/11/2025",
+                "valor_transacao_dia": 798216.88,
+                "qtd_transacoes_diarias": 5516
+            },
+            {
+                "data": "02/11/2025",
+                "valor_transacao_dia": 497379.51,
+                "qtd_transacoes_diarias": 9457
+            },
+            {
+                "data": "01/11/2025",
+                "valor_transacao_dia": 760945.76,
+                "qtd_transacoes_diarias": 6303
+            },
+            {
+                "data": "31/10/2025",
+                "valor_transacao_dia": 548301.43,
+                "qtd_transacoes_diarias": 7733
+            },
+            {
+                "data": "30/10/2025",
+                "valor_transacao_dia": 228408.09,
+                "qtd_transacoes_diarias": 8061
+            },
+            {
+                "data": "29/10/2025",
+                "valor_transacao_dia": 67335.29,
+                "qtd_transacoes_diarias": 8481
+            }
+        ]
+    }
+]
