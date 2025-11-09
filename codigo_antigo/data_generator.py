@@ -3,7 +3,7 @@ import random
 import json
 from datetime import datetime, timedelta
 
-fake = Faker('pt_BR')  # Para nomes e datas no padrão brasileiro
+fake = Faker('pt_BR')  
 
 # Quantidade de clientes
 num_clientes = 10

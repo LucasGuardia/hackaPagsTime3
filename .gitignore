@@ -1,0 +1,43 @@
+# --- Ambiente Virtual do Python (Suas "Bibliotecas") ---
+# Ignora a pasta inteira do venv.
+/venv/
+
+# --- Segredos e Credenciais ---
+# CRÍTICO: Ignora seu arquivo .env com senhas do Redshift.
+/.env
+*.env
+
+# --- Modelos de IA Treinados ---
+# Ignora os arquivos binários dos modelos (são gerados, não salvos)
+/modelos/*.joblib
+/modelos/*.pkl
+/modelos/*.h5
+
+# --- Dados Gerados ---
+# Ignora os dados processados e saídas.
+# A pasta /dados/raw/ (com mocks) PODE ser mantida.
+/dados/processed/
+/dados/outputs/
+# Se seus dados brutos forem grandes, adicione /dados/raw/ também
+
+# --- Cache do Python ---
+# Ignora arquivos de cache que o Python cria automaticamente.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebooks ---
+# Ignora a pasta de checkpoints que o Jupyter cria.
+.ipynb_checkpoints/
+
+# --- Configurações de IDE (VS Code) ---
+# Ignora arquivos de configuração de workspace específicos do seu computador.
+# O seu .vscode/launch.json (que criamos) SERÁ salvo no Git.
+*.code-workspace
+.idea/
+.vscode/
+
+# --- Arquivos de Sistema Operacional (macOS e Windows) ---
+.DS_Store
+Thumbs.db
