@@ -47,11 +47,17 @@ def get_historical_data(dat_start_filter='2024-01-01'):
         dat_reference AS data,
         idt_safepay_creditor AS id_cliente,
         num_tpv_value AS tpv_dia,
-        num_operational_margin AS margem_op_dia,
-        idt_main_payment_method AS meio_pagamento,
-        num_installment_qty AS parcelas
+        num_contribution_margin AS margem_op_dia, -- OK, usei sua coluna de margem
+
+        -- !! CRÍTICO: ADICIONE AS COLUNAS DE PAGAMENTO !!
+        -- (A FASE 2 precisa delas para o 'Mix de Pagamento')
+        -- Ajuste os nomes [NOME_COLUNA_...] para os nomes reais
+        [NOME_COLUNA_MEIO_PAGAMENTO] AS meio_pagamento,
+        [NOME_COLUNA_PARCELAS] AS parcelas
+        
     FROM
-        dax.ent_margin_summary
+        hackathon_dax.dax_ent_margin_summary -- OK, usei sua tabela
+        
     WHERE
         dat_reference >= '{dat_start_filter}'
     ORDER BY
@@ -79,14 +85,11 @@ def get_metas_from_redshift():
     """
     Busca a 'tpv_meta' de outra tabela no Redshift.
     
-    !! ESTA FUNÇÃO É UM EXEMPLO E PRECISA SER AJUSTADA !!
-    
     Returns:
         pd.DataFrame: DataFrame de metas com 'id_cliente' como índice.
     """
     print("Buscando metas (tpv_meta) do Redshift...")
 
-    # Carrega as variáveis de ambiente (caminho relativo)
     project_root = os.path.join(os.path.dirname(__file__), '..', '..')
     load_dotenv(os.path.join(project_root, '.env'))
 
@@ -107,27 +110,15 @@ def get_metas_from_redshift():
         print(f"Erro ao conectar no Redshift (função de metas): {e}")
         return None
 
-    # 2. Query de Metas (!! AJUSTE AQUI !!)
-    # Você precisa descobrir qual tabela e colunas contêm a meta.
-    # O 'idt_safepay_creditor' (ou 'idt_safepay_user') deve ser o ID.
-    
+    # qury de metas
     query_metas = """
     SELECT
-        -- !! AJUSTE AQUI !! (ex: idt_safepay_user ou idt_safepay_creditor)
-        idt_safepay_creditor AS id_cliente, 
+        num_total_contract_tpv AS tpv_meta,     -- OK, usei sua coluna de meta
+        idt_safepay_creditor AS id_cliente   -- OK, usei sua coluna de ID
         
-        -- !! AJUSTE AQUI !! (qual coluna é a meta?)
-        num_meta_tpv_objetivo AS tpv_meta 
-        
+        -- (idt_customer não parece ser usado no join, então ignorei)
     FROM
-        -- !! AJUSTE AQUI !! (qual tabela tem as metas?)
-        dax.NOME_DA_SUA_TABELA_DE_METAS 
-        
-    WHERE
-        -- (Talvez você precise filtrar pelo período de meta mais recente)
-        -- dat_referencia_meta = '2024-10-01'
-        flg_meta_ativa = 1
-    ;
+        hacka03.tpv_target_client;           
     """
     
     try:
